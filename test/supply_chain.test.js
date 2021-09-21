@@ -18,7 +18,7 @@ contract("SupplyChain", function (accounts) {
   });
 
   describe("Variables", () => {
-    it("should have an owner", async () => {
+    isType("should have an owner", async () => {
       assert.equal(typeof instance.owner, 'function', "the contract has no owner");
     });
 
